@@ -1,4 +1,4 @@
-#include "sequence/builder.hpp"
+#include <sequence-cpp/builder.hpp>
 
 namespace sequence{
     const Sequence::ptr SequenceBuilderBase::build(YAML::Node node, list builders){

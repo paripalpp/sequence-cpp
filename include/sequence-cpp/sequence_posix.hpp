@@ -2,7 +2,7 @@
 #include <chrono>
 #include <string>
 #include <iostream>
-#include "sequence.hpp"
+#include <sequence-cpp/sequence.hpp>
 
 namespace sequence{
     class Delay : public Sequence {

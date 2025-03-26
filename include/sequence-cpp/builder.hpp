@@ -5,8 +5,8 @@
 #include <memory>
 #include <initializer_list>
 #include <yaml-cpp/yaml.h>
-#include <sequence/sequence.hpp>
-#include <sequence/interfaces.hpp>
+#include <sequence-cpp/sequence.hpp>
+#include <sequence-cpp/interfaces.hpp>
 
 namespace sequence{
 

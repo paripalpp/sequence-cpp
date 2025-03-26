@@ -2,8 +2,8 @@
 #include <iostream>
 #include <string>
 #include <chrono>
-#include <sequence/sequence_posix.hpp>
-#include <sequence/builder.hpp>
+#include <sequence-cpp/sequence_posix.hpp>
+#include <sequence-cpp/builder.hpp>
 
 // sequence_posix builder implementations
 namespace sequence{

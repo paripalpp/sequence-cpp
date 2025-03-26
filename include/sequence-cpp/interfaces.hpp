@@ -1,5 +1,5 @@
 #pragma once
-#include <sequence/sequence.hpp>
+#include <sequence-cpp/sequence.hpp>
 
 namespace sequence{
     namespace interfaces{
