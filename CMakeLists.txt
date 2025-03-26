@@ -11,3 +11,18 @@ add_library(sequence-cpp
 target_include_directories(sequence-cpp PUBLIC include)
 target_link_libraries(sequence-cpp PUBLIC yaml-cpp)
 target_compile_features(sequence-cpp PUBLIC cxx_std_20)
+
+install(TARGETS sequence-cpp
+    EXPORT sequence-cpp-targets
+    LIBRARY DESTINATION lib
+    ARCHIVE DESTINATION lib
+    INCLUDES DESTINATION include
+)
+
+install(DIRECTORY include/ DESTINATION include)
+
+# install(EXPORT sequence-cpp-targets
+#     FILE sequence-cpp-config.cmake
+#     NAMESPACE sequence-cpp::
+#     DESTINATION lib/cmake/sequence-cpp
+# )
